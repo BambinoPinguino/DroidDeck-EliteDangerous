@@ -23,7 +23,7 @@ object GameExePicker {
 
     /** Folders that never hold the game itself. */
     private val SKIP_DIRS = setOf(
-        "_commonredist", "commonredist", "redist", "redistributable", "redistributables",
+        "_commonredist", "commonredist", "redist", "redistributable", "redistributables", "Products",
         "directx", "dotnet", "dotnetfx", "vcredist", "vc_redist", "prerequisites", "prereq",
         "installer", "installers", "__installer", "support", "extras", "docs", "documentation", "manual",
         "soundtrack", "ost", "artbook", "bonus", "dlc", "mods", "saves", "savegames",
